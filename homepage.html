@@ -4,17 +4,21 @@
 <script src="homepage.js"></script>
 <script src="https://kit.fontawesome.com/df7dbf8a66.js" crossorigin="anonymous"></script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
 <head>
     <title>Banter Buddy</title>
 </head>
 
 <body>
     <div id="header">
-        <h1 class="title">Welcome to the Conversation Sustainability Project!</h1>
+        <h1 class="title">Welcome to Banter Buddy!</h1>
     </div>
     <div id="center">
         <div id="record">
-            <button type="button" class="recordButton">Record!</button>
+            <button type="button" id="recordButton" class="recordButton" onclick="colorChanger()">Record!</button>
         </div>
         <div id="output">
             <textarea class="outputTextarea" placeholder="This is where the output goes!
